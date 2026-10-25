@@ -1,0 +1,24 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# ---- 运行时生成的记忆库（由技能/脚本产生，不要入库） ----
+my_memory_store/
+*.memory_store/
+memory_data/
+memory.db
+*.memory.json
+
+# ---- 系统/编辑器 ----
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# ---- 打包临时产物 ----
+*.zip.tmp
